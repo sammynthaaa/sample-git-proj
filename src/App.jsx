@@ -13,6 +13,8 @@ class App extends Component {
   constructor(props){
     super (props);
 
+    console.log('Sam was here');
+
     this.state = { //initialization
       userList: [],
       date: new Date()
